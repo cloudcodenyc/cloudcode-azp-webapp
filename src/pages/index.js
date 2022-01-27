@@ -8,22 +8,19 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>cloudcodenyc-azp-webapp</h1>
+    <p>Welcome to cloudcodenyc's React.js static-webapp built with Gatsby</p>
+    <p>Now we wait for something great.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/cloudcode-script.png"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
+      alt="A Blue Script"
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      <Link to="/page-2/">Go to Projects</Link> <br />
     </p>
   </Layout>
 )
